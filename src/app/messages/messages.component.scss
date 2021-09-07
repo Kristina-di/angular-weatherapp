@@ -1,0 +1,24 @@
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  position: relative;
+}
+.alert-warning {
+  background-color: #fce3e3;
+  border-color: #facccc;
+  color: #b15454;
+}
+.close {
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 20px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .2;
+  filter: alpha(opacity=20);
+}
